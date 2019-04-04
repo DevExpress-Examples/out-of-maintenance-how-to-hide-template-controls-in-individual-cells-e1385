@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/DynamicShowHideTemplate/Default.aspx) (VB: [Default.aspx](./VB/DynamicShowHideTemplate/Default.aspx))
-* [Default.aspx.cs](./CS/DynamicShowHideTemplate/Default.aspx.cs) (VB: [Default.aspx](./VB/DynamicShowHideTemplate/Default.aspx))
+* [Default.aspx.cs](./CS/DynamicShowHideTemplate/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DynamicShowHideTemplate/Default.aspx.vb))
 <!-- default file list end -->
 # How to hide template controls in individual cells
 
