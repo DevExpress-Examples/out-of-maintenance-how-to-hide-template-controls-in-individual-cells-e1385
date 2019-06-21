@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/DynamicShowHideTemplate/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DynamicShowHideTemplate/Default.aspx.vb))
 <!-- default file list end -->
 # How to hide template controls in individual cells
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1385/)**
+<!-- run online end -->
 
 
 <p>The example shows how to make some template controls invisible. Hyperlinks under the Issues, Returns, and Manage columns are hidden or shown based on the Status column's value in a given row. Issues and Returns are template columns. The Manage column is a command column with a custom button. </p><p><strong>See Also:</strong><br />
