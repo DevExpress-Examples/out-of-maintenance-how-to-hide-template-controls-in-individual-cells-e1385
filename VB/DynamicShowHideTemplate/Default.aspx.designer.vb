@@ -38,7 +38,7 @@ Namespace DynamicShowHideTemplate
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected gvTrackingNumbers As Global.DevExpress.Web.ASPxGridView.ASPxGridView
+		Protected gvTrackingNumbers As Global.DevExpress.Web.ASPxGridView
 
 		''' <summary>
 		''' Manage control.
@@ -47,6 +47,6 @@ Namespace DynamicShowHideTemplate
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected Manage As Global.DevExpress.Web.ASPxGridView.GridViewCommandColumnCustomButton
+		Protected Manage As Global.DevExpress.Web.GridViewCommandColumnCustomButton
 	End Class
 End Namespace

@@ -27,8 +27,8 @@ namespace DynamicShowHideTemplate {
         }
 
         // hide custom command button
-        protected void gvTrackingNumbers_HtmlCommandCellPrepared(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewTableCommandCellEventArgs e) {
-            if(e.CommandCellType == DevExpress.Web.ASPxGridView.GridViewTableCommandCellType.Data
+        protected void gvTrackingNumbers_HtmlCommandCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableCommandCellEventArgs e) {
+            if(e.CommandCellType == DevExpress.Web.GridViewTableCommandCellType.Data
                 && e.CommandColumn.Name == "colManage") {
                 bool isVisible = GetManageButtonVisible(e.VisibleIndex);
                 e.Cell.Controls[0].Visible = isVisible;

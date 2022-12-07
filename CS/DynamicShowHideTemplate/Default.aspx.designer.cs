@@ -35,7 +35,7 @@ namespace DynamicShowHideTemplate {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gvTrackingNumbers;
+        protected global::DevExpress.Web.ASPxGridView gvTrackingNumbers;
         
         /// <summary>
         /// Manage control.
@@ -44,6 +44,6 @@ namespace DynamicShowHideTemplate {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.GridViewCommandColumnCustomButton Manage;
+        protected global::DevExpress.Web.GridViewCommandColumnCustomButton Manage;
     }
 }

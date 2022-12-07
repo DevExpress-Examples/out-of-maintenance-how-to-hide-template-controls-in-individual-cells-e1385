@@ -29,8 +29,8 @@ Namespace DynamicShowHideTemplate
 		End Sub
 
 		' hide custom command button
-		Protected Sub gvTrackingNumbers_HtmlCommandCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewTableCommandCellEventArgs)
-			If e.CommandCellType = DevExpress.Web.ASPxGridView.GridViewTableCommandCellType.Data AndAlso e.CommandColumn.Name = "colManage" Then
+		Protected Sub gvTrackingNumbers_HtmlCommandCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableCommandCellEventArgs)
+			If e.CommandCellType = DevExpress.Web.GridViewTableCommandCellType.Data AndAlso e.CommandColumn.Name = "colManage" Then
 				Dim isVisible As Boolean = GetManageButtonVisible(e.VisibleIndex)
 				e.Cell.Controls(0).Visible = isVisible
 			End If
