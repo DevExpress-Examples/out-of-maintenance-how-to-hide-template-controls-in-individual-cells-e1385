@@ -1,7 +1,3 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1385)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -9,9 +5,6 @@
 * [Default.aspx.cs](./CS/DynamicShowHideTemplate/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DynamicShowHideTemplate/Default.aspx.vb))
 <!-- default file list end -->
 # How to hide template controls in individual cells
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1385/)**
-<!-- run online end -->
 
 
 <p>The example shows how to make some template controls invisible. Hyperlinks under the Issues, Returns, and Manage columns are hidden or shown based on the Status column's value in a given row. Issues and Returns are template columns. The Manage column is a command column with a custom button. </p><p><strong>See Also:</strong><br />
